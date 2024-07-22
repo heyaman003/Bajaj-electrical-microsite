@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.b-h-bb{
+    font-size: 26px;
+    font-weight: 700;
+    color: rgb(32, 31, 31);
+}
+.n-t-p{
+    font-size: 20px;
+    color: rgb(56, 54, 54);
+}
+.bl-h-xl{
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(31 93 172);
+}
+.bl-h-sm{
+    font-size: 22px;
+    font-weight: 500;
+    color: rgb(31 93 172);
+}
+.b-h-md{
+    font-size: 22px;
+    font-weight: 500;
+    color: rgb(31, 30, 30);
+}
+.span{
+    font-size: 10px;
+}
+.house-banner{
+    background: url('./Logo/Ghar.webp');
+    background-repeat: no-repeat;
+    margin: auto;
+    background-size: contain;
+}
