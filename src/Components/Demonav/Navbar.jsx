@@ -150,19 +150,25 @@ const toggleDropdown = () => {
                   
                 </li>
                 <li>
-                  <Link onClick={toggleNav} to={"/Manufacture-capitals"}>
+                  <Link onClick={toggleNav} to={"/Intellectual-Capital"}>
                   Intellectual Capital
                   </Link>
                   
                 </li>
                 <li>
-                  <Link onClick={toggleNav} to={"/Manufacture-capitals"}>
+                  <Link onClick={toggleNav} to={"/Human-Capital"}>
+                  Human Capital
+                  </Link>
+                  
+                </li>
+                <li>
+                  <Link onClick={toggleNav} to={"/Social-and-Relationship-Capital"}>
                   Social and Relationship Capital
                   </Link>
                   
                 </li>
                 <li>
-                  <Link onClick={toggleNav} to={"/Manufacture-capitals"}>
+                  <Link onClick={toggleNav} to={"/Natural-Capital"}>
                   Natural Capital
                   </Link>
                   
