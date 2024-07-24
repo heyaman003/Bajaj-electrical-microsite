@@ -34,7 +34,7 @@
 }
 
 .caps-template h1 {
-    font-size: 100px;
+    font-size: 70px;
     color: white;
     line-height: 1.2;
     font-weight: 700;
@@ -42,7 +42,7 @@
 }
 
 .capitalh2 {
-    font-size: 70px;
+    font-size: 50px;
     color: white;
     line-height: 1.2;
     margin: 0;
@@ -51,7 +51,7 @@
 
 .cap-icon {
     width: 90px;
-    background-color: white;
+    /* background-color: white; */
     padding: 1%;
     border-radius: 100%;
 }

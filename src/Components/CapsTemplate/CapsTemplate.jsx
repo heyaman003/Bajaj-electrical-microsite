@@ -39,7 +39,7 @@ const CapsTemplate = ({ src, title, values, theme, gradient, ico }) => {
 
     return (
         <motion.div 
-            className='caps-template'
+            className='caps-template h-screen'
             ref={ref}
             initial="hidden"
             animate={controls}
@@ -59,17 +59,13 @@ const CapsTemplate = ({ src, title, values, theme, gradient, ico }) => {
                     className='caps-main-title'
                     variants={itemVariants}
                 >
-                    <motion.h1  initial={{x:"-100px",opacity:0}} whileInView={{x:0,opacity:1}}
+                    <motion.h1 className='flex'  initial={{x:"-100px",opacity:0}} whileInView={{x:0,opacity:1}}
             transition={{duration:0.5,ease:"easeInOut",delay:0.4}}
-            viewport={{once:true}}>{title}</motion.h1>
-                    <motion.h2 initial={{x:"-100px",opacity:0}} whileInView={{x:0,opacity:1}}
+            viewport={{once:true}}>{title} <span className='pl-4'> Capital</span>  <img className='ml-5' style={{width:"90px"}} src={ico} alt="" /></motion.h1>
+                    {/* <motion.h2  initial={{x:"-100px",opacity:0}} whileInView={{x:0,opacity:1}}
             transition={{duration:0.5,ease:"easeInOut",delay:0.5}}
-            viewport={{once:true}} className='capitalh2'>Capital</motion.h2>
-                    <motion.div initial={{x:"-100px",opacity:0}} whileInView={{x:0,opacity:1}}
-            transition={{duration:0.5,ease:"easeInOut",delay:0.6}}
-            viewport={{once:true}} className='cap-icon'>
-                        <img src={ico} alt="" />
-                    </motion.div>
+            viewport={{once:true}} className='capitalh2 mt-5 md:w-[50%] '>Demonstrates our efficient capital structure</motion.h2> */}
+                 
                 </motion.div>
             </div>
             <div className='cap-values-overlay' style={{

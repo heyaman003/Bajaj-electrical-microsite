@@ -2,7 +2,7 @@ import React from "react";
 
 const Ourbuisness = () => {
   return (
-    <div className="w-[86%] m-auto mt-[80px]">
+    <div className="w-[86%] m-auto mt-[20px]">
       <h3 className="text-[#3269d6] text-[26px] font-bold">Our Businesses</h3>
       <h3 className="text-[#2e83b4] text-[36px] font-bold">
         Differentiating with customer-centric offerings
@@ -22,7 +22,7 @@ const Ourbuisness = () => {
         electrical goods industry.
       </p>
       <div>
-        <img src="./Buisness/01 BAJAJ Electricals_11.07.2024.jpg" alt="" />
+        <img src="/Buisness/homei.jpg" alt="" />
       </div>
       <div className="my-5">
         <p className="text-[14px] font-[600] text-blue-900">
@@ -110,7 +110,7 @@ const Ourbuisness = () => {
           <div className="w-[55%]">
             <img
               className="w-full object-contain"
-              src="./Buisness/33.webp"
+              src="/Buisness/33.webp"
               alt=""
             />
           </div>
@@ -186,7 +186,7 @@ const Ourbuisness = () => {
           <div className="w-[55%]">
             <img
               className="w-full object-contain"
-              src="./Buisness/4.webp"
+              src="/Buisness/4.webp"
               alt=""
             />
           </div>
@@ -261,7 +261,7 @@ const Ourbuisness = () => {
           <div className="w-[55%]">
             <img
               className="w-full object-contain"
-              src="./Buisness/5.webp"
+              src="/Buisness/5.webp"
               alt=""
             />
           </div>
@@ -334,7 +334,7 @@ const Ourbuisness = () => {
           <div className="w-[55%]">
             <img
               className="w-full object-contain"
-              src="./Buisness/nirlep.webp"
+              src="/Buisness/nirlep.webp"
               alt=""
             />
           </div>
@@ -418,7 +418,7 @@ const Ourbuisness = () => {
         <div className="w-[55%]  bg-blue-50 py-10">
           <img
             className="w-[90%] m-auto object-contain"
-            src="./Buisness/bajaj003.png"
+            src="/Buisness/bajaj003.png"
             alt=""
           />
         </div>
@@ -471,7 +471,7 @@ const Ourbuisness = () => {
         <div className="w-[55%]  bg-blue-50 py-10">
           <img
             className="w-[90%] m-auto object-contain"
-            src="./Buisness/Illuminate.webp"
+            src="/Buisness/Illuminate.webp"
             alt=""
           />
         </div>
