@@ -116,7 +116,7 @@ const Capslider = () => {
             <a to={'/Manufactured-and-Intellectual-Capital'} className="url-box">
               <figure className='newsCard news-Slide-up mfd-up special-card'>
                 <img src="./CAp-images/HCAPS.png" alt="Manufactured Capital"/>
-                <div className='newsCaption px-4 special-caption'>
+                <div className='newsCaption px-4 '>
                   <div className="d-flex align-items-center justify-content-between cnt-title">
                     <h4 className='newsCaption-title text-white  smh m-0'>Human Capital</h4>
                     {/* <i className="fas fa-arrow-alt-circle-right"></i> */}
@@ -153,7 +153,7 @@ const Capslider = () => {
             <a to={'/Social-and-Relationship-Capital'} className="url-box">
               <figure className='newsCard news-Slide-up sr-up special-card'>
                 <img src="./CAp-images/SRCAPS.png" alt="Social and Relationship Capital"/>
-                <div className='newsCaption special-caption px-4'>
+                <div className='newsCaption  px-4'>
                   <div className="d-flex align-items-center justify-content-between cnt-title">
                     <h4 className='newsCaption-title text-white smh m-0'>Social and Relationship<br />Capital</h4>
                     {/* <i className="fas fa-arrow-alt-circle-right special-icon"></i> */}
@@ -187,7 +187,7 @@ const Capslider = () => {
             <a to={'/Social-and-Relationship-Capital'} className="url-box">
               <figure className='newsCard news-Slide-up hum1-up special-card'>
                 <img src="./CAp-images/NCAPS.png" alt="Social and Relationship Capital"/>
-                <div className='newsCaption special-caption px-4'>
+                <div className='newsCaption  px-4'>
                   <div className="d-flex align-items-center justify-content-between cnt-title">
                     <h4 className='newsCaption-title text-white smh m-0'>Natural Capital</h4>
                     {/* <i className="fas fa-arrow-alt-circle-right special-icon"></i> */}

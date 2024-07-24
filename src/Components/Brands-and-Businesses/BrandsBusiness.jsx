@@ -23,39 +23,39 @@ const BrandsBusiness = ({ index }) => {
 
   useEffect(() => {
     let ctx = gsap.context(() => {
-      gsap.set(".photo:not(:first-child)", { opacity: 0, y: 50, scale: 1 });
-      const animation = gsap.to(".photo:not(:first-child)", {
-        opacity: 1,
-        y: 0,
-        duration: 0.5,
-        stagger: 1,
-      });
-
-      ScrollTrigger.create({
-        trigger: ".gallery",
-        start: "top top",
-        end: "bottom bottom",
-        pin: ".rightblock",
-        animation: animation,
-        scrub: true,
-      });
-
-      const details = gsap.utils.toArray(".details");
-      details.forEach((detail, i) => {
-        ScrollTrigger.create({
-          trigger: detail,
-          start: "top center",
-          end: "bottom center",
-
-          onEnter: () =>
-            gsap.to(".gallery", { backgroundColor: colors[i], duration: 1 }),
-          onEnterBack: () =>
-            gsap.to(".gallery", { backgroundColor: colors[i], duration: 1 }),
+        gsap.set(".photo:not(:first-child)", { opacity: 0, y: 50, scale: 1 });
+        const animation = gsap.to(".photo:not(:first-child)", {
+            opacity: 1, y: 0, duration: 0.5, stagger: 1
         });
-      });
+
+        ScrollTrigger.create({
+            trigger: ".gallery",
+            start: "top top",
+            end: "bottom bottom",
+            pin: ".rightblock",
+            animation: animation,
+            scrub: true,
+        });
+
+        const details = gsap.utils.toArray('.details');
+        details.forEach((detail, i) => {
+            ScrollTrigger.create({
+                trigger: detail,
+                start: "top center",
+                end: "bottom center",
+
+                onEnter: () => gsap.to('.gallery', { backgroundColor: colors[i], duration: 1 }),
+                onEnterBack: () => gsap.to('.gallery', { backgroundColor: colors[i], duration: 1 })
+
+            });
+        });
     });
     return () => ctx.revert();
-  }, []);
+}, []);
+  
+
+   
+  
 
   const handleHover = () => {
     setIsHovered(true);
@@ -88,12 +88,12 @@ const BrandsBusiness = ({ index }) => {
   };
 
   const container2 = useRef(null);
-  const { scrollY } = useScroll({
-    target: container2,
-    offset: ["start start", "end end"],
-  });
-  const scaleIts = useTransform(scrollY, [0, 400], [1, 1.1]);
-  const scaleIts2 = useTransform(scrollY, [0, 300], [1, 1]);
+  // const { scrollY } = useScroll({
+  //   target: container2,
+  //   offset: ["start start", "end end"],
+  // });
+  // const scaleIts = useTransform(scrollY, [0, 400], [1, 1.1]);
+  // const scaleIts2 = useTransform(scrollY, [0, 300], [1, 1]);
 
   return (
     <div className="relative mt-5">
@@ -118,6 +118,7 @@ const BrandsBusiness = ({ index }) => {
       </div>
       <div className="gallery" style={{ backgroundColor: bgColor }}>
         <div className="color-bg"></div>
+        <div ref={container2} className="flex flex-col md:flex-row w-full">
         <div className="left">
           <div className="details">
             <div className="details-card dt1">
@@ -306,7 +307,7 @@ const BrandsBusiness = ({ index }) => {
             </div>
           </div>
         </div>
-        <div className="rightblock">
+        <div className="rightblock w-full md:w-[50%]">
           <div className="photo">
             <div className="dynamic-color dc1">
               <img className="p-2" src="./Buisness/33.webp" alt="img-1" />
@@ -337,6 +338,7 @@ const BrandsBusiness = ({ index }) => {
               <img src="./Buisness/Illuminate.webp" alt="img-3" />
             </div>
           </div>
+        </div>
         </div>
       </div>
     </div>
