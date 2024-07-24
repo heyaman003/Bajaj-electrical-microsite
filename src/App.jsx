@@ -20,6 +20,10 @@ import MorphyRichards from './Pages/Ourbuisness/MorphyRichards';
 import Nerlip from './Pages/Ourbuisness/Nerlip';
 import ProfessionalLightning from './Pages/Ourbuisness/ProfessionalLightning'
 import ConsumerLightining from './Pages/Ourbuisness/ConsumerLightining';
+import IntellectualCapital from './Pages/IntellectualCapital/IntellectualCapital'
+import HumanCapital from './Pages/HumanCapital/HumanCapital'
+import SRcapital from './Pages/SRcapital/SRcapital'
+import NaturalCapital from './Pages/NaturalCapital/NaturalCapital'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -46,10 +50,10 @@ function App() {
       <Route path='/Stakeholder' element={<Stakeholder/>} />
       <Route path='/Finical-capital' element={<FinicalCapital/>} />
       <Route path='/Manufacture-capitals' element={ <ManufactureCapitals/>} />
-      <Route path='/Human-Capital' element={ <ManufactureCapitals/>} />
-      <Route path='/Social-and-Relationship-Capital' element={ <ManufactureCapitals/>} />
-      <Route path='/Intellectual-Capital' element={ <ManufactureCapitals/>} />
-      <Route path='/Natural-Capital' element={ <ManufactureCapitals/>} />
+      <Route path='/Human-Capital' element={ <HumanCapital/>} />
+      <Route path='/Social-and-Relationship-Capital' element={ <SRcapital/>} />
+      <Route path='/Intellectual-Capital' element={ <IntellectualCapital/>} />
+      <Route path='/Natural-Capital' element={ <NaturalCapital/>} />
     </Routes>
      <Footer/>
     </BrowserRouter>
