@@ -2,7 +2,7 @@ import React from "react";
 
 const Stakeholder = () => {
   return (
-    <div className="w-[86%] m-auto mt-[80px]">
+    <div className="w-[86%] m-auto">
       <h3 className=" text-[26px] font-bold">Stakeholder Engagement</h3>
       <h3 className="text-[#1f5dad] text-[36px] font-bold">
         Building collaborative partnerships

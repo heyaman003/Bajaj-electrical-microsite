@@ -2,8 +2,10 @@ import React from "react";
 
 const MdMessage = () => {
   return (
-    <div className="w-[86%] m-auto mt-[80px]">
-      
+    <div className="w-[86%] m-auto">
+      <div>
+      <img src="./Bod/bod02.webp" alt="" />
+      </div>
       <p className="n-t-p  mb-1">
         <b className="text-[#f48221] text-[24px]">Dear Shareholders,</b>
       </p>

@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+   
 }
 .b-h-bb{
     font-size: 26px;
@@ -38,6 +39,18 @@
 }
 .financial-caps{
     background: linear-gradient(to right,#8bb5d2,#84b9e0);
+}
+.human-caps{
+    background: linear-gradient(to right,#fab981,#f7b073);
+}
+.srs-caps{
+    background: linear-gradient(to right,#c97b75,#c97b75);
+}
+.natural-caps{
+    background: linear-gradient(to right,#86be88,#86be88);
+}
+.intel-caps{
+    background: linear-gradient(to right,#90c6d1,#90c6d1);
 }
 .materiality-caps{
     background: linear-gradient(to right,#b0a1ce,#b0a1ce);
@@ -363,3 +376,9 @@
 
 
 /* JOBS BUTTON CSS END */
+
+.hide-scroll{
+    -ms-overflow-style: none;
+    /* for Internet Explorer, Edge */
+    scrollbar-width: none;
+}

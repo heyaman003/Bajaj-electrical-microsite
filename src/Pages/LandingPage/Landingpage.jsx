@@ -14,7 +14,21 @@ import Capslider from "../../Components/CapSlider/CapSlider";
 import Financial from "../../Components/Financial/Financial";
 import TextAnimation from "../../Components/AnimateText/AnimatedText";
 import TextAnimation01 from "../../Components/AnimateText/AnimatedText01";
+import { StickyScroll } from '../../Components/NewAccertinitycompo/SliderNew';
 const Landingpage = () => {
+
+
+  const arr=[
+    {title: "BAJAJ is now Built for Life", description: "BAJAJ, a distinguished name in the consumer appliances industry, has undergone a significant repositioning with its 'Built For Life' ethos. With a storied legacy spanning decades, BAJAJ has garnered trust and admiration worldwide for its unwavering focus on quality and innovation. The 'Built For Life' mantra encapsulates BAJAJ's dedication to engineering appliances that not only excel in performance but also withstand the rigours of everyday use, ensuring longevity and peace of mind for consumers. This redefined brand philosophy underscores BAJAJ's commitment to crafting products that endure the test of time, resonating deeply with consumers seeking durability and reliability in their appliances.", content: './Buisness/33.webp',urlToGo:"/Ourbusiness/BAJAJ"}
+    ,{title: "Nex - The performance-backed premium brand", description: "Nex, the latest brand from the house of Bajaj Electricals, has stormed into the Indian consumer market with a promise to redefine the way consumers interact with home appliances. Launched with a vision to blend cutting-edge technology and design to yield unmatched performance, Nex aims to elevate everyday living experiences for households across the nation.", content: './Buisness/4.webp',urlToGo:"/Ourbusiness/Nex"},
+    {title: "Morphy Richards - The Iconic British lifestyle brand", description: "Morphy Richards India, an iconic British brand, has long been synonymous with elevating lifestyles and enhancing everyday experiences. With its tagline 'Happiness Engineered,' Morphy Richards embodies a commitment to not just meeting but exceeding consumer expectations, ensuring that every interaction with its products brings joy and satisfaction.", content: './Buisness/5.webp',urlToGo:"/Ourbusiness/Morphy-Richards"},
+    {title: "Nirlep understands everyday health needs", description: "A pioneering name in kitchenware and cookware, Nirlep is now redefining cooking with its soon-to-be-launched, renewed proposition of 'Every Day Health.' Since its inception, Nirlep has been synonymous with longevity and culinary excellence. With a fresh focus on promoting healthier cooking practices, Nirlep aims to empower individuals to prioritise their well-being with the support of the right cookware.", content: './Buisness/nirlep.webp',urlToGo:"/Ourbusiness/Nirlep"},
+    {title: "Professional lighting", description: "Embark on a journey into the realm of professional lighting with Bajaj Electricals, where a diverse array of high-performance LED luminaires, innovative lighting controls, and specialized fixtures await. Crafted to meet the exacting demands of professional environments, Bajaj Electricals' solutions ensure optimal illumination across commercial spaces, industrial facilities, and outdoor areas.", content: './Buisness/bajaj003.png',urlToGo:"/Ourbusiness/Professional-lighting"},
+    {title: "Consumer lighting", description: "BAJAJ's Consumer Lighting business is dedicated to meeting the demands of residential and personal spaces, where the product portfolio effortlessly combines aesthetics with reliability. The consumers enjoy the luxury of choice, selecting from a diverse range of options to illuminate their homes with high-performance and durable lighting solutions. Whether it's energy-efficient LED bulbs, elegant decorative fixtures, or cutting-edge smart lighting systems, BAJAJ empowers consumers to curate spaces that truly embody their unique preferences and lifestyles. Scan the QR code to know more more", content: './Buisness/Illuminate.webp',urlToGo:"/Ourbusiness/Consumer-lighting"},
+  ]
+  
+  
+  
   return (
     <div className="landing-page-wrapper">
       <div className="overflow-hidden w-full">
@@ -173,7 +187,12 @@ const Landingpage = () => {
           <Quote />
           <BoardOfDirectorNew />
           <Financial />
-          <BrandsBusiness />
+          {/* <BrandsBusiness /> */}
+          <b>Our Businesses</b>
+      <h2 className="bl-h-xl my-3 mb-1">
+        Differentiating with <br /> customer-centric offerings
+      </h2>
+          <StickyScroll content={arr}/>
           <Capslider />
         </div>
       </div>

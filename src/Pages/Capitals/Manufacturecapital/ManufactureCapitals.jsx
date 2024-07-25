@@ -10,7 +10,7 @@ const ManufactureCapitals = () => {
       ];
   return (
     <>
-    <div className=' mt-[80px]'>
+    <div className=''>
             <CapsTemplate src={'./Stakeholder/mci.png'} title={"Manufactured"} values={values} theme={"#b0a1ce"} gradient={"#b0a1ce"} ico={"./Stakeholder/ico2.png"} />
 
     </div>

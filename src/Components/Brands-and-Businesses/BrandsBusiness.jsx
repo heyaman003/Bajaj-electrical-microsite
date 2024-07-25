@@ -31,7 +31,7 @@ const BrandsBusiness = ({ index }) => {
         ScrollTrigger.create({
             trigger: ".gallery",
             start: "top top",
-            end: "bottom bottom",
+            end: "bottom top",
             pin: ".rightblock",
             animation: animation,
             scrub: true,
@@ -118,7 +118,7 @@ const BrandsBusiness = ({ index }) => {
       </div>
       <div className="gallery" style={{ backgroundColor: bgColor }}>
         <div className="color-bg"></div>
-        <div ref={container2} className="flex flex-col md:flex-row w-full">
+        <div ref={container2} className="flex flex-col md:flex-row w-full relative">
         <div className="left">
           <div className="details">
             <div className="details-card dt1">

@@ -1,11 +1,41 @@
 import React from 'react'
+import CapsTemplate from '../../Components/CapsTemplate/CapsTemplate';
 
 function IntellectualCapital() {
   return (
-    <div className=' w-[86%] m-auto'>
-        <div className='bg'>
-                    <img src="" alt="main-img" />
+    <>
+    <div>
+            <CapsTemplate src={'./Stakeholder/ICI.png'} title={"Intellectual"}  theme={"#fbb87d"} gradient={"#90c6d1"} ico={"./Stakeholder/NATURAL.png"} />
+
+    </div>
+    <div className='intel-caps p-5 px-8'>
+      <h1 className='text-white text-[46px] font-bold'>Drives meaningful innovation for life</h1>
+     <h2 className='text-white text-[22px]'>
+     We are pushing the envelope of innovation across different price points for various products to fulfil the aspirations
+     of a wide spectrum of customers. Our primary objective is to develop a diverse range of products that stand out for their design, functionality, durability and energy efficiency. We are committed to delivering solutions that help enrich the quality of life.
+</h2>
+     <div className="flex flex-col md:flex-row text-white gap-8 justify-center my-5">
+      <div className='w-[50%] md:w-[20%]'>
+      <b>Material topics</b>
+      <hr />
+      <p>Environmental portfolio</p>
+      <p>Product stewardship</p>
+      </div>
+      <div className='w-[50%] md:w-[20%]'>
+      <b>UN SDG linkage</b> 
+     
+     
+        <img className='object-contain ' src="./Stakeholder/SD3.png" alt="" />
+
+        
+      </div>
+     
+     </div>
+     <div className='w-full mb-5'>
+        <img className='rounded-lg w-[80%] m-auto ' src="./Stakeholder/ICAPSGRAPH.png" alt="" />
         </div>
+    </div>
+    <div className=' w-[86%] m-auto max-w-[1500px]'>
         <div className='my-16'>
                 <div className='flex lg:flex-row flex-col'>
                     <div className='lg:w-[55%]'>
@@ -124,6 +154,7 @@ function IntellectualCapital() {
         </div>
          
     </div>
+    </>
   )
 }
 

@@ -2,7 +2,7 @@ import React from 'react'
 
 const RiskManagement = () => {
   return (
-    <div className='w-[86%] m-auto mt-[80px]'>
+    <div className='w-[86%] m-auto'>
       <h3 className=" text-[26px] font-bold">Business Model</h3>
       
       <div className='flex flex-col lg:flex-row gap-8'>

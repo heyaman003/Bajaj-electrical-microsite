@@ -3,10 +3,10 @@ import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import './CapSlider.css';
+import { Link } from 'react-router-dom';
 // import { a } from 'react-router-dom';
 
 import { motion } from 'framer-motion';
-import { Link } from 'react-router-dom';
 
 const CustomPrevArrow = (props) => {
   const { className, style, onClick } = props;
@@ -92,7 +92,7 @@ const Capslider = () => {
       <div className="row">
         <Slider {...settings}>
           <div className="col-lg-4">
-            <a to={'/Financial-Capital'} className="url-box ">
+            <Link to={'/Finical-capital'} className="url-box ">
               <figure className='newsCard news-Slide-up fin-up'>
                 <img className='object-contain' src="./CAp-images/FCAPS.png"  alt="Financial Capital"/>
                 <div className='newsCaption px-4'>
@@ -110,10 +110,10 @@ const Capslider = () => {
                 </div>
                 <span className="overlay"></span>
               </figure>
-            </a>
+           </Link>
           </div>
           <div className="col-lg-4">
-            <a to={'/Manufactured-and-Intellectual-Capital'} className="url-box">
+            <Link to={'/Human-Capital'} className="url-box">
               <figure className='newsCard news-Slide-up mfd-up special-card'>
                 <img src="./CAp-images/HCAPS.png" alt="Manufactured Capital"/>
                 <div className='newsCaption px-4 '>
@@ -127,10 +127,10 @@ const Capslider = () => {
                 </div>
                 <span className="overlay"></span>
               </figure>
-            </a>
+           </Link>
           </div>
           <div className="col-lg-4">
-            <a to={'/Natural-Capital'} className="url-box">
+            <Link to={'/Manufacture-capitals'} className="url-box">
               <figure className='newsCard news-Slide-up nat-up'>
                 <img src="./CAp-images/MCAPS.png"  alt="Intellectual Capital"/>
                 <div className='newsCaption px-4'>
@@ -147,10 +147,10 @@ const Capslider = () => {
                 </div>
                 <span className="overlay"></span>
               </figure>
-            </a>
+           </Link>
           </div>
           <div className="col-lg-4">
-            <a to={'/Social-and-Relationship-Capital'} className="url-box">
+            <Link to={'/Social-and-Relationship-Capital'} className="url-box">
               <figure className='newsCard news-Slide-up sr-up special-card'>
                 <img src="./CAp-images/SRCAPS.png" alt="Social and Relationship Capital"/>
                 <div className='newsCaption  px-4'>
@@ -164,10 +164,10 @@ const Capslider = () => {
                 </div>
                 <span className="overlay"></span>
               </figure>
-            </a>
+           </Link>
           </div>
           <div className="col-lg-4">
-            <a to={'/human-capital'} className="url-box">
+            <Link to={'/Intellectual-Capital'} className="url-box">
               <figure className='newsCard news-Slide-up hum-up'>
                 <img src="./CAp-images/ICAPS.png" alt="Human Capital"/>
                 <div className='newsCaption px-4'>
@@ -181,10 +181,10 @@ const Capslider = () => {
                 </div>
                 <span className="overlay"></span>
               </figure>
-            </a>
+           </Link>
           </div>
           <div className="col-lg-4">
-            <a to={'/Social-and-Relationship-Capital'} className="url-box">
+            <Link to={'/Natural-Capital'} className="url-box">
               <figure className='newsCard news-Slide-up hum1-up special-card'>
                 <img src="./CAp-images/NCAPS.png" alt="Social and Relationship Capital"/>
                 <div className='newsCaption  px-4'>
@@ -199,7 +199,7 @@ const Capslider = () => {
                 </div>
                 <span className="overlay"></span>
               </figure>
-            </a>
+           </Link>
           </div>
          
           {/* Add more cards as needed */}

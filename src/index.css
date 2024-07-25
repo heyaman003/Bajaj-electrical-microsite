@@ -5,3 +5,149 @@
 .bg{
     border:1px solid red;
 }
+@font-face {
+    font-family: 'Aileron';
+    src: url('./Fonts/Aileron-Black.woff2') format('woff2'),
+        url('./Fonts/Aileron-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aileron';
+    src: url('./Fonts/Aileron-Thin.woff2') format('woff2'),
+        url('./Fonts/Aileron-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aileron';
+    src: url('./Fonts/Aileron-HeavyItalic.woff2') format('woff2'),
+        url('./Fonts/Aileron-HeavyItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aileron';
+    src: url('./Fonts/Aileron-Bold.woff2') format('woff2'),
+        url('./Fonts/Aileron-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aileron';
+    src: url('./Fonts/./Fonts/Aileron-BoldItalic.woff2') format('woff2'),
+        url('./Fonts/./Fonts/Aileron-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aileron';
+    src: url('./Fonts/Aileron-LightItalic.woff2') format('woff2'),
+        url('./Fonts/Aileron-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aileron';
+    src: url('./Fonts/Aileron-Italic.woff2') format('woff2'),
+        url('./Fonts/Aileron-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aileron';
+    src: url('./Fonts/Aileron-Regular.woff2') format('woff2'),
+        url('./Fonts/Aileron-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aileron';
+    src: url('./Fonts/Aileron-SemiBold.woff2') format('woff2'),
+        url('./Fonts/Aileron-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aileron';
+    src: url('./Fonts/./Fonts/Aileron-BlackItalic.woff2') format('woff2'),
+        url('./Fonts/./Fonts/Aileron-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aileron';
+    src: url('./Fonts/./Fonts/Aileron-SemiBoldItalic.woff2') format('woff2'),
+        url('./Fonts/./Fonts/Aileron-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aileron';
+    src: url('./Fonts/Aileron-Light.woff2') format('woff2'),
+        url('./Fonts/Aileron-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aileron';
+    src: url('Aileron-Heavy.woff2') format('woff2'),
+        url('Aileron-Heavy.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aileron';
+    src: url('./Fonts/./Fonts/Aileron-ThinItalic.woff2') format('woff2'),
+        url('./Fonts/./Fonts/Aileron-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aileron';
+    src: url('./Fonts/Aileron-UltraLightItalic.woff2') format('woff2'),
+        url('./Fonts/Aileron-UltraLightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aileron';
+    src: url('./Fonts/Aileron-UltraLight.woff2') format('woff2'),
+        url('./Fonts/Aileron-UltraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+#root{
+    font-family: "Aileron";
+}

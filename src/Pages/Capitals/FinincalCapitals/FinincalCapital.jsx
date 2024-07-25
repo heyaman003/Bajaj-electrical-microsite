@@ -10,7 +10,7 @@ const FinicalCapital = () => {
       ];
   return (
     <>
-    <div className=' mt-[80px]'>
+    <div className=''>
             <CapsTemplate src={'./Stakeholder/fcii.png'} title={"Financial"} values={values} theme={"#3d85c6"} gradient={"#3d85c6"} ico={"./Stakeholder/fci.png"} />
 
     </div>
