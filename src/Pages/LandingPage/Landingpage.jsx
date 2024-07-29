@@ -72,7 +72,7 @@ const Landingpage = () => {
           <div className="w-auto">
             <motion.div
               initial={{ height: 0, opacity: 0 }}
-              whileInView={{ height: "80vh", opacity: 1 }}
+              whileInView={{ height: "70vh", opacity: 1 }}
               transition={{ duration: 1, ease: "easeInOut" }}
               viewport={{ once: true }}
               className="bg-[#1f5dad] rounded-xl w-[70%]  m-auto flex justify-center align-middle items-center relative"

@@ -15,7 +15,7 @@ const CustomPrevArrow = (props) => {
       style={{
         ...style,
         display: 'block',
-        background: '#58595b',
+        background: '#015eab',
         borderRadius: '50%',
         width: '40px', // Adjust width as needed
         height: '40px', // Adjust height as needed
@@ -35,7 +35,7 @@ const CustomNextArrow = (props) => {
       style={{
         ...style,
         display: 'block',
-        background: '#58595b',
+        background: '#015eab',
         borderRadius: '50%',
         width: '40px', // Adjust width as needed
         height: '40px', // Adjust height as needed
@@ -55,7 +55,7 @@ const Quote = () => {
     slidesToShow: 1,
     slidesToScroll: 1,
     initialSlide: 0,
-    autoplay: true,
+    autoplay: false,
     autoplaySpeed: 3000,
     prevArrow: <CustomPrevArrow />,
     nextArrow: <CustomNextArrow />,
@@ -79,7 +79,7 @@ const Quote = () => {
             <div className='p-4'>
             <h2 className='text-5xl text-center font-extrabold py-8 text-[#353637] hero'>Chairman’s  Communique</h2>
               <div className='slide'>
-                <img src="./Bod/bod01.webp" className='object-contain mx-auto' alt="Quote 1" />
+                <img src="./Bod/MD1.webp" className='object-contain mx-auto' alt="Quote 1" />
               </div>
               <div className='flex justify-center mt-8 pb-4'>
                 <Link to={"/Chairman-message"}><ReadMoreButton /></Link>
@@ -88,7 +88,7 @@ const Quote = () => {
             <div className='p-4'>
             <h2 className='text-5xl text-center font-extrabold py-8 text-[#353637] hero'>Message from the MD <br /> and CEO</h2>
               <div className='slide'>
-                <img src="./Bod/bod02.webp" className='object-contain mx-auto' alt="Quote 2" />
+                <img src="./Bod/MD2.webp" className='object-contain mx-auto' alt="Quote 2" />
               </div>
               <div className='flex justify-center mt-8 pb-4'>
                   <Link to={"/Md-Message"}><ReadMoreButton /></Link>
