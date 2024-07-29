@@ -25,7 +25,7 @@ const CapsTemplate = ({ src, title, values, theme, gradient, ico }) => {
                     className='caps-main-title'
                     // variants={itemVariants}
                 >
-                    <motion.h1 className='flex'  initial={{x:"-100px",opacity:0}} whileInView={{x:0,opacity:1}}
+                    <motion.h1 className='flex '  initial={{x:"-100px",opacity:0}} whileInView={{x:0,opacity:1}}
             transition={{duration:0.5,ease:"easeInOut",delay:0.4}}
             viewport={{once:true}}>{title} <span className='pl-4'> Capital</span>  <img className='ml-5' style={{width:"90px"}} src={ico} alt="" /></motion.h1>
                     {/* <motion.h2  initial={{x:"-100px",opacity:0}} whileInView={{x:0,opacity:1}}

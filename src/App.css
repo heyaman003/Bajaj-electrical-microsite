@@ -382,3 +382,8 @@
     /* for Internet Explorer, Edge */
     scrollbar-width: none;
 }
+.border-top-bottom{
+    border-top: 1px solid rgb(231, 110, 50);
+    width: 50%;
+    border-bottom: 1px solid rgb(231, 110, 50);
+}

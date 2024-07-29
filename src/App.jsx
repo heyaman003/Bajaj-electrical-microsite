@@ -24,6 +24,7 @@ import IntellectualCapital from './Pages/IntellectualCapital/IntellectualCapital
 import HumanCapital from './Pages/HumanCapital/HumanCapital'
 import SRcapital from './Pages/SRcapital/SRcapital'
 import NaturalCapital from './Pages/NaturalCapital/NaturalCapital'
+import Awards from './Pages/Awards/Awards';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -34,6 +35,7 @@ function App() {
     <Navbar/>
      <Routes>
       <Route path='/' element={<Landingpage/>} />
+      <Route path='/Awards' element={<Awards/>} />
       <Route path='/Chairman-message' element={<ChairmainMessage/>} />
       <Route path='/Our-business' element={ <Ourbuisness/>} />
       <Route path='/Ourbusiness/BAJAJ' element={ <Builtinbajaj/>} />

@@ -36,36 +36,7 @@ const Nerlip = () => {
         </p>
         <div className="flex w-full justify-center gap-10">
           <div className="flex flex-col gap-8 md:w-[45%]">
-            <iframe
-              className="w-full"
-              height="315"
-              src="https://www.youtube.com/embed/Eo8l51FQU7w?si=3pgiljMBiTylla8w"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              referrerpolicy="strict-origin-when-cross-origin"
-              allowfullscreen
-            ></iframe>
-            <iframe
-              className="w-full"
-              height="315"
-              src="https://www.youtube.com/embed/N-ZWeXJ063w?si=fgIjxrrXgQS8v0s4"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              referrerpolicy="strict-origin-when-cross-origin"
-              allowfullscreen
-            ></iframe>
-            <iframe
-              className="w-full"
-              height="315"
-              src="https://www.youtube.com/embed/Ubht9WFv1eM?si=bd5r-C0Gu29kHRdW"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              referrerpolicy="strict-origin-when-cross-origin"
-              allowfullscreen
-            ></iframe>
+          <iframe width="560" height="400" src="https://www.youtube.com/embed/3KPgsgh0exY?si=BG4omqJgWNaZTnM6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
           </div>
           <div className="w-[55%]">
             <img
